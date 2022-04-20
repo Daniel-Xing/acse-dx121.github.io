@@ -16,5 +16,14 @@
       <description>update</description>
     </item>
     
+    <item>
+      <title>redis</title>
+      <link>https://acse-dx121.github.io/post/database/redis/</link>
+      <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
+      
+      <guid>https://acse-dx121.github.io/post/database/redis/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
