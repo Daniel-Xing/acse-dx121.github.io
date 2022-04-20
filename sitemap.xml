@@ -150,12 +150,6 @@
   </url>
   
   <url>
-    <loc>https://acse-dx121.github.io/post/cs/overall/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://acse-dx121.github.io/post/cs/projects/bytedance-2021-08/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
