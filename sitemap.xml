@@ -2,28 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://acse-dx121.github.io/categories/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://acse-dx121.github.io/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://acse-dx121.github.io/tags/nosql/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://acse-dx121.github.io/categories/nosql/</loc>
     <lastmod>2022-03-07T15:44:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,35 +16,7 @@
   </url>
   
   <url>
-    <loc>https://acse-dx121.github.io/tags/redis/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://acse-dx121.github.io/categories/redis/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://acse-dx121.github.io/post/redis/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://acse-dx121.github.io/post/some-content/</loc>
-    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://acse-dx121.github.io/tags/</loc>
     <lastmod>2022-03-07T15:44:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -74,6 +25,18 @@
   <url>
     <loc>https://acse-dx121.github.io/about/</loc>
     <lastmod>2020-07-07T00:47:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://acse-dx121.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://acse-dx121.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
