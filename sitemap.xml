@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>https://acse-dx121.github.io/post/redis/</loc>
+    <lastmod>2022-03-07T15:44:25+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://acse-dx121.github.io/post/some-content/</loc>
     <lastmod>2022-03-07T15:44:25+00:00</lastmod>
     <changefreq>weekly</changefreq>
