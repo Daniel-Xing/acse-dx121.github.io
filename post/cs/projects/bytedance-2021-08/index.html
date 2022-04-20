@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="olOwOlo" /><meta name="description" content="Bytedance - tiktok Timeline: 2021/05/26 ～ 2021/08 技术栈 语言：Golang、thrift 存储：Mysql、ES、Redis 框架：Gin、Gorm 中间件：RMQ 架构：微服务 公司框" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.92.1 with theme even" />
+
+
+<link rel="canonical" href="https://acse-dx121.github.io/post/cs/projects/bytedance-2021-08/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="Bytedance - tiktok Timeline: 2021/05/26 ～ 2021/08 技术栈 语言：Golang、thrift 存储：Mysql、ES、Redis 框架：Gin、Gorm 中间件：RMQ 架构：微服务 公司框" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://acse-dx121.github.io/post/cs/projects/bytedance-2021-08/" /><meta property="article:section" content="post" />
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Bytedance - tiktok Timeline: 2021/05/26 ～ 2021/08 技术栈 语言：Golang、thrift 存储：Mysql、ES、Redis 框架：Gin、Gorm 中间件：RMQ 架构：微服务 公司框">
+
+<meta itemprop="wordCount" content="3227">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Bytedance - tiktok Timeline: 2021/05/26 ～ 2021/08 技术栈 语言：Golang、thrift 存储：Mysql、ES、Redis 框架：Gin、Gorm 中间件：RMQ 架构：微服务 公司框"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Even</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title"></h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 0001-01-01 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#技术栈">技术栈</a></li>
+    <li><a href="#总结与收获">总结与收获</a>
+      <ul>
+        <li><a href="#流程规范">流程规范</a></li>
+        <li><a href="#职场"><strong>职场</strong></a></li>
+        <li><a href="#心得">心得</a></li>
+      </ul>
+    </li>
+    <li><a href="#商品素材">商品素材</a>
+      <ul>
+        <li><a href="#feature-新增直播回放管理页">Feature: 新增直播回放管理页</a></li>
+        <li><a href="#feature新增白底图采集">Feature:新增白底图采集</a></li>
+      </ul>
+    </li>
+    <li><a href="#价格校验">价格校验</a>
+      <ul>
+        <li><a href="#feature价格校验逻辑优化">Feature:价格校验逻辑优化</a></li>
+      </ul>
+    </li>
+    <li><a href="#系统能力升级与维护">系统能力升级与维护</a>
+      <ul>
+        <li><a href="#bugfix增加字段支持">BugFix:增加字段支持</a></li>
+        <li><a href="#bugfix卡券信息特殊符号兼容">BugFix:卡券信息特殊符号兼容</a></li>
+        <li><a href="#bugfix无发布记录时审核中无法撤销">BugFix:无发布记录时，审核中无法撤销</a></li>
+        <li><a href="#bugfix商品字符校验调整v2">BugFix:商品字符校验调整V2</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="bytedance---tiktok">Bytedance - tiktok</h1>
+<ul>
+<li>Timeline: 2021/05/26 ～ 2021/08</li>
+</ul>
+<h2 id="技术栈">技术栈</h2>
+<ul>
+<li>语言：<strong>Golang</strong>、thrift</li>
+<li>存储：<strong>Mysql</strong>、ES、<strong>Redis</strong></li>
+<li>框架：<strong>Gin</strong>、<strong>Gorm</strong></li>
+<li>中间件：RMQ</li>
+<li>架构：微服务</li>
+</ul>
+<p><strong>公司框架</strong></p>
+<ul>
+<li>RPC：Kitex 根据rpc定义生成server和client端的代码</li>
+<li>ginex、gorm、rmq等开源包皮库</li>
+</ul>
+<h2 id="总结与收获">总结与收获</h2>
+<h3 id="流程规范">流程规范</h3>
+<p><strong>开发流程：</strong> 流程的规范是为了规避风险。和开发私人项目时候有很大的不同在于：私底下做项目的时候可能想到要实现什么功能就直接开始写了，没有走一些必要的流程，一个功能点还好，多个功能点可能带来的问题是相互之间交叉造成意外BUG，并会导致其他同学难以上手。但由于个人项目一般较小，因而整体一般处于可控的情况。而在公司里面写代码，一定要注重<!-- raw HTML omitted -->开发规范<!-- raw HTML omitted -->。<strong>基本上需要遵循以下步骤</strong>：</p>
+<ol>
+<li><strong>和产品拉齐，知道整体需求背景和功能实现</strong></li>
+<li><strong>调研已有的系统和工具，撰写设计文档</strong></li>
+<li><strong>评审设计文档，组内评价+和对接方评价，有问题则记录并修改</strong></li>
+<li><strong>评估开发时间并进行开发</strong></li>
+<li><strong>和对接方进行联合调试、组内代码review</strong></li>
+<li><strong>移交测试</strong></li>
+<li><strong>上线</strong></li>
+</ol>
+<p>通过流程上的规范，来<strong>规避掉整体项目的风险</strong>，尽可能在上线前暴露问题，以免触发线上事故。</p>
+<p>整个流程是非常值得学习的，在开发私人项目和参与开源项目的时候，应当尽量使用。</p>
+<p><strong>团队协作</strong>： 厂里面的事情，更多的时候是一个小团队负责一个功能模块，这极其容易带来的问题就是思维狭隘，难以从全局思考。所因此内部的分享会是非常非常重要的机会去从宏观的一个看、角度去大致认识到某一个部门是干什么的。其次是我们要知道，技术和业务之间的关系其实就是设计图纸和建筑方案的关系，两者应当都看一看。</p>
+<p>而细化到组内，也是一个或者多个人负责一个小功能或者业务片区，这样的性质很大概率会导致人的思维局限。从长远发展来看，不论是跳槽，还是跟随一个厉害的人创业，都是更好的选项。而其中的核心逻辑是，要保持自身的持续的学习和积累，定期的反思和复盘。非常的重要。</p>
+<p>另外沟通交流能力极为重要，简洁明了的使他人明白你的意思，能够有效的节约沟通成本，另外，阶段性的总结和梳理有助于锻炼思维，但最重要在于持续性的积累。</p>
+<p>**上线流程与监控：**要对线上环境抱有敬畏之心。具体阐述为：</p>
+<ol>
+<li>方案设计时要充分考虑上线的流程以及可能会出现的影响</li>
+<li>上线过程中要时刻盯着流程，上线后要观察一段时间监控</li>
+<li>出现问题立刻进行回滚，防止线上事故出现</li>
+</ol>
+<p>由于会应用到真实的场景，因此很容易造成资损以及商家投诉，真实的对业务产生影响，<strong>因此需要慎之又慎</strong></p>
+<h3 id="职场"><strong>职场</strong></h3>
+<p><strong>同级关系处理</strong>：和同事之间要保持了良好的正常的沟通交流，注意好边界线。要明白，与同事之间合作和竞争都有，但是整体指导思想是为了整个部门着想。</p>
+<p>**上下级关系处理：**和上级打好关系，并不代表着谄媚，要表现出自己的价值，表现出自己有利于推动上级完成自己的绩效考核，这才是核心。</p>
+<h3 id="心得">心得</h3>
+<p><strong>技术方向</strong></p>
+<ul>
+<li><strong>撰写技术方案</strong>：要注意对存储的影响，例如，是否对DB的压力增大许多等等。其次需要详细考虑对已有功能的影响，若考虑不周全可能导致方案需要大改。</li>
+<li><strong>编写代码</strong>：常见的错误需要规避，例如对空指针取值等。其次，需要对功能点进行单元测试，有助于提前排查问题。第三需要注意模块化编写，做好抽象和可读性之间的平衡。</li>
+</ul>
+<hr>
+<h2 id="商品素材">商品素材</h2>
+<h3 id="feature-新增直播回放管理页">Feature: 新增直播回放管理页</h3>
+<h4 id="核心要点"><strong>核心要点：</strong></h4>
+<p>1）直播回放，商家后台管理能力，支持自定义选择展示直播片段以及是否开启商详展示</p>
+<p><strong>时序图：</strong></p>
+<p><img src="../img/image-20210801203413798.png" alt="image-20210801203413798"></p>
+<p><strong>技术方案阐述：</strong></p>
+<p>从总体上进行功能点的拆分，拆分后大致为如上六个功能点。</p>
+<ol>
+<li></li>
+<li></li>
+</ol>
+<h3 id="feature新增白底图采集">Feature:新增白底图采集</h3>
+<h4 id="核心需求">核心需求：</h4>
+<p>1）<strong>商品创建、修改</strong>：新增非必填白底图，支持上传修改</p>
+<p>2）<strong>商品详情页</strong>：白底图审核通过则显示，不通过显示原因</p>
+<p>3）<strong>商品管理</strong>：素材驳回不影响商品状态，管理列表提示素材图被驳回，支持编辑修改后重新送审</p>
+<p>4）<strong>历史兼容与可拓展性</strong>：部分复用此前头图视频的逻辑与接口，需要考虑之后可能出现1:N 的其它类型的素材图</p>
+<h4 id="技术实现">技术实现：</h4>
+<ul>
+<li>创建修改：增加传入和传出的参数，逻辑上不复杂。但是由于商品信息与数据进行了解耦合，所以要进行判断。</li>
+<li>审核状态流转：商品送审、取消审核、审核回调与结果处理。审核回调使用的监听MQ消息，然后消费者服务调用backend服务进行处理。相关审核记录信息存储来源信息中，回调时候读出。</li>
+<li>复用头图视频整体逻辑：数据库表中增加一个type类型。</li>
+</ul>
+<h2 id="价格校验">价格校验</h2>
+<h3 id="feature价格校验逻辑优化">Feature:价格校验逻辑优化</h3>
+<h4 id="校验逻辑">校验逻辑</h4>
+<p><strong>核心逻辑变更</strong>：先调用营销接口判断是否命中阻断逻辑，若命中直接返回。调用治理侧接口，判断是否有警告。调用营销接口，判断是否有警告。</p>
+<p><img src="../img/image-20210801201517264.png" alt="image-20210801201517264"></p>
+<h4 id="代码实现">代码实现</h4>
+<ul>
+<li>前置校验：用户在改价失焦之后会触发，调用校验接口，如上图所示</li>
+<li>后置校验：嵌套在各项逻辑之中，函数接受interface，然后使用switch type转换为原来的参数，最后调用一个闭包函数来处理，优点在于省略了冗长的参数传递</li>
+</ul>
+<h2 id="系统能力升级与维护">系统能力升级与维护</h2>
+<h3 id="bugfix增加字段支持">BugFix:增加字段支持</h3>
+<h4 id="核心需求点描述">核心需求点描述</h4>
+<p>1）ecom_tc_product_change 中type = 4 &amp; type =15 消息中加上MarketPrice字段</p>
+<p>2）商品变更消息中增加Status部分</p>
+<h4 id="技术方案">技术方案</h4>
+<p>营销侧主要监听的Topic是ecom_tc_product_change，消费消息类型主要为：4，5，6，7，8，9，10，11，15。product_backend不发送type=15消息。product_draft发送type=4 &amp; 15 消息。</p>
+<p>消息体中加内容，RMQ</p>
+<h3 id="bugfix卡券信息特殊符号兼容">BugFix:卡券信息特殊符号兼容</h3>
+<ul>
+<li>兼容缓存中特殊字符校验</li>
+</ul>
+<h4 id="bug追因方案">Bug追因&amp;方案</h4>
+<p>老版参数过滤使用https://golang.org/pkg/net/url/#QueryUnescape，不会转义&amp; 而新使用的https://golang.org/pkg/html/#UnescapeString 会将其转义为 &amp; 字符。因此对于存量的数据来说，在匹配时候会出错，因此解决方案为再读取存量数据的&amp;amp；之后，使用UnescapeString 再次进行转义。</p>
+<p>Bug修复后，修改提交后脏数据会被刷新。</p>
+<h4 id="bug复现">Bug复现</h4>
+<p>productID：3488795137948184860、shopID：1111115522</p>
+<p><img src="../img/image-20210801200259170.png" alt="image-20210801200259170"></p>
+<h4 id="bug修复">BUG修复</h4>
+<p>修改一行代码，使用html.UnescapeString过滤</p>
+<p><img src="../img/image-20210801200320963.png" alt="image-20210801200320963"></p>
+<p>结果如下：</p>
+<p>未做修改后提交，发布成功。脏数据被刷新</p>
+<p><img src="../img/image-20210801200348775.png" alt="image-20210801200348775"></p>
+<p><img src="../img/image-20210801200524025.png" alt="image-20210801200524025"></p>
+<h3 id="bugfix无发布记录时审核中无法撤销">BugFix:无发布记录时，审核中无法撤销</h3>
+<h4 id="原因追溯">原因追溯</h4>
+<ul>
+<li>修改商品提交，商品进入审核中流程</li>
+<li>终端删除t_product_publish_record对应发布记录</li>
+</ul>
+<!-- raw HTML omitted -->
+<p><img src="../img/image-20210801195807239.png" alt="image-20210801195807239"></p>
+<p><strong>存在两种情况：</strong></p>
+<ol>
+<li>新建商品审核中：publishID = 0**。此时并不会命中条件判断，直接进行撤销已提交状态。 问题在于前端界面无直接撤销方法，**可下架再上架，如上述图二所示。</li>
+<li>修改商品审核中：publishID != 0,  前端可调用CancelPublish方法，命中<strong>红色字体端逻辑，前端返回撤销成功，但实际未执行撤销操作.</strong></li>
+</ol>
+<h4 id="解决方案">解决方案:</h4>
+<p>若无法保证回滚一定成功，则数据状态不一致可能存在。<strong>解决方案</strong></p>
+<ol>
+<li><strong>通过调整CancelAudit逻辑，增加一条判断条件，如下图所示。之前由于会读取到数据库中之前的审核记录，因此会命中记录的发布状态不等于审核中，但由于数据不一致的情况存在，因此需要加上一条，判断在线商品的草稿审核状态不等于草稿已经提交审核。</strong></li>
+<li><strong>前端增加新建商品审核中 撤销审核按钮。</strong></li>
+</ol>
+<h3 id="bugfix商品字符校验调整v2">BugFix:商品字符校验调整V2</h3>
+<h4 id="放开字符限制20---30">放开字符限制：20 -&gt; 30</h4>
+<p><img src="../img/image-20210801194236051.png" alt="image-20210801194236051"></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 标题
+</span><span class="c1"></span><span class="k">if</span> <span class="nx">utils</span><span class="p">.</span><span class="nf">Len</span><span class="p">(</span><span class="nx">lesson</span><span class="p">.</span><span class="nx">Title</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="nx">error_code</span><span class="p">.</span><span class="nf">ConstructErrorWithMsg</span><span class="p">(</span><span class="nx">error_code</span><span class="p">.</span><span class="nx">PARAMS_INVALID</span><span class="p">,</span> <span class="s">&#34;课时标题不能为空&#34;</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">utils</span><span class="p">.</span><span class="nf">Len</span><span class="p">(</span><span class="nx">lesson</span><span class="p">.</span><span class="nx">Title</span><span class="p">)</span> <span class="p">&gt;</span> <span class="mi">30</span> <span class="p">{</span> <span class="c1">// fix: 增加课时限制从20 -&gt; 30
+</span><span class="c1"></span>   <span class="k">return</span> <span class="nx">error_code</span><span class="p">.</span><span class="nf">ConstructErrorWithMsg</span><span class="p">(</span><span class="nx">error_code</span><span class="p">.</span><span class="nx">PARAMS_INVALID</span><span class="p">,</span> <span class="s">&#34;课时标题不能超过30个字符&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="返回值中存在空值">返回值中存在空值</h4>
+<ul>
+<li>返回值为map类型。遍历map，当val 为空时，删除key</li>
+</ul>
+<p><img src="../img/image-20210801194654126.png" alt="image-20210801194654126"></p>
+<h4 id="创建或修改时过滤productformat字段不允许非法的传入数据库">创建或修改时过滤productFormat字段，不允许非法的，传入数据库</h4>
+<p><img src="../img/image-20210801195144950.png" alt="image-20210801195144950"></p>
+<ul>
+<li>新增函数过滤传入值</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 过滤属性值中存在的，，
+</span><span class="c1"></span><span class="kd">func</span> <span class="p">(</span><span class="nx">productModel</span> <span class="o">*</span><span class="nx">ProductModel</span><span class="p">)</span> <span class="nf">FilterDot</span><span class="p">(</span><span class="nx">value</span> <span class="kt">string</span><span class="p">)</span> <span class="kt">string</span> <span class="p">{</span>
+   <span class="nx">valueSlice</span> <span class="o">:=</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Split</span><span class="p">(</span><span class="nx">value</span><span class="p">,</span> <span class="nx">const_key</span><span class="p">.</span><span class="nx">PropertyMultiSelectSep</span><span class="p">)</span>
+   <span class="kd">var</span> <span class="nx">builder</span> <span class="nx">strings</span><span class="p">.</span><span class="nx">Builder</span>
+
+   <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="nx">valueSlice</span><span class="p">);</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Compare</span><span class="p">(</span><span class="nx">valueSlice</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">{</span>
+         <span class="k">if</span> <span class="nx">i</span> <span class="o">!=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">builder</span><span class="p">.</span><span class="nf">Len</span><span class="p">()</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">{</span>
+            <span class="nx">builder</span><span class="p">.</span><span class="nf">WriteString</span><span class="p">(</span><span class="nx">const_key</span><span class="p">.</span><span class="nx">PropertyMultiSelectSep</span><span class="p">)</span>
+         <span class="p">}</span>
+         <span class="nx">builder</span><span class="p">.</span><span class="nf">WriteString</span><span class="p">(</span><span class="nx">valueSlice</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span>
+      <span class="p">}</span>
+   <span class="p">}</span>
+
+   <span class="k">return</span> <span class="nx">builder</span><span class="p">.</span><span class="nf">String</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="c1">// 传入参数校验：防止空字段写入数据库
+</span><span class="c1"></span><span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">item</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">params</span><span class="p">.</span><span class="nx">ProductFormat</span> <span class="p">{</span>
+   <span class="k">if</span> <span class="nx">filterStr</span> <span class="o">:=</span> <span class="nf">NewProductModel</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nf">TODO</span><span class="p">()).</span><span class="nf">FilterDot</span><span class="p">(</span><span class="nx">item</span><span class="p">.</span><span class="nx">FormatVal</span><span class="p">)</span> <span class="p">;</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Compare</span><span class="p">(</span><span class="nx">filterStr</span><span class="p">,</span> <span class="s">&#34;&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">{</span>
+      <span class="nx">mapStr</span><span class="p">[</span><span class="nx">item</span><span class="p">.</span><span class="nx">FormatKey</span><span class="p">]</span> <span class="p">=</span> <span class="nx">filterStr</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">olOwOlo</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        0001-01-01
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/cs/overall/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default"></span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/cs/projects/distributionoperator/">
+            <span class="next-text nav-default"></span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-google" title="google"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-github" title="github"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="https://acse-dx121.github.io/" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://acse-dx121.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>olOwOlo</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
